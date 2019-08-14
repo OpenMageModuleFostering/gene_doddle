@@ -174,11 +174,9 @@ class Gene_Doddle_Model_Observer
 
             // This order can no longer be shipped partially as Doddle has to receive it all at once
             $order->setCanShipPartially(0)->setCanShipPartiallyItem(0);
-            $order->save();
 
             // Update the quote
             $quote->getShippingAddress()->addData($store->getMagentoShippingAddress());
-            $quote->save();
 
         }
 
