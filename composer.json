@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Gene_Doddle",
+    "name": "OpenMageModuleFostering\/Gene_Doddle",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Love shopping online but hate missing the delivery? Fix this for your customers with Doddle, the solution for collecting and returning your online purchases.",
     "authors": [
-    {
-        "name": "Dave Macaulay",
-        "email": "magento@gene.co.uk"
-    }
-],
+        {
+            "name": "Dave Macaulay",
+            "email": "magento@gene.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
